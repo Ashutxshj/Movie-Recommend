@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-movies_data = pd.read_csv(r'C:\Users\Ashut\OneDrive\Desktop\Projects\Movie_Recommendation_System\movies.csv')
+movies_data = pd.read_csv('movies.csv')
 
 
 selected_features = ['genres', 'keywords', 'tagline', 'cast', 'director']
