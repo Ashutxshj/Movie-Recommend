@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import difflib
-from scikit-learn.feature_extraction.text import TfidfVectorizer
-from scikit-learn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 
 movies_data = pd.read_csv(r'movies.csv')
